@@ -31,12 +31,16 @@ const Hpapiget = () => {
                 <div key={Index}> 
                     <img className='imageData' src={character.image}></img>
                     <ul className='characterData'>{[
-                        character.name, <br/>, character.alternate_names, <br/>, character.species, <br/>, character.gender,
-                        character.house, <br/>, character.dateOfBirth, <br/>, character.yearOfBirth, <br/>,
-                        character.wizard, <br/>, character.ancestry, <br/>, character.eyeColour, <br/>,
-                        character.hairColour, <br/>, character.wand.wood, <br/>, character.wand.core, <br/>, character.wand.length, <br/>,
-                        character.patronus, <br/>, character.hogwartsStudent, <br/>,
-                        character.howartsStaff, <br/>, character.actor, <br/>, character.alternate_actors, <br/>, character.alive
+                        "Name: ", character.name, <br/>,
+                        "Species: ", character.species, <br/>, "Gender: ", character.gender, <br/>,
+                        "House: ", character.house, <br/>, "Date Of Birth: ", character.dateOfBirth, <br/>,
+                        "Year Of Birth: ", character.yearOfBirth, <br/>,
+                        "Ancestry: ", character.ancestry, <br/>,
+                        "Eye Colour: ", character.eyeColour, <br/>,
+                        "Hair Colour: ", character.hairColour, <br/>, "Wand Wood: ", character.wand.wood, <br/>,
+                        "Wand Core: ", character.wand.core, <br/>, "Wand length: ", character.wand.length, <br/>,
+                        "Patronus: ", character.patronus, <br/>,
+                        "Actor: ", character.actor, <br/>
                     ]}</ul>
                 </div>
             ))}
