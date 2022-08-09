@@ -4,8 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-     <a className="Title">Harry às Postas</a>
-     <Hpapiget />
+      <div className="TitleContainer">
+        <h1>Harry às Postas</h1>
+      </div>
+    <Hpapiget />
     </div>
   );
 }

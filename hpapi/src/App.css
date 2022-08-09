@@ -1,12 +1,7 @@
-
-.App{
+  .TitleContainer{
   background-color: #101010;
-  text-align: center;
-}
-
-.Title{
   color: white;
-  font-weight: 700;
-  font-size: larger;
+  font-size: medium;
   text-align: center;
+  padding: 1px 0 1px;
 }
