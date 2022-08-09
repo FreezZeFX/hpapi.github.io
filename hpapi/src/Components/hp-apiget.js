@@ -5,7 +5,7 @@ import './hp-apiget.css';
 const Hpapiget = () => {
 
     const [characters, setCharacters] = useState([]);
-    const [images, setImages] = useState([]);
+    
     useEffect(() => {
         
     const getCharacters = async () => {
