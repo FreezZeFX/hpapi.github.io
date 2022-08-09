@@ -26,9 +26,9 @@ const Hpapiget = () => {
     if (!characters.length) return <h3>Loading...</h3>
 
     return ( 
-            <div className='characterContainer'>
+            <div className='characterContainerBody'>
             {characters.map ((character, Index) => (
-                <div key={Index}> 
+                <div key={Index} className='characterContainer'> 
                     <img className='imageData' src={character.image}></img>
                     <ul className='characterData'>{[
                         "Name: ", character.name, <br/>,
